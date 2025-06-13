@@ -1,14 +1,13 @@
 /* Primitives */
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,400italic,700,700italic');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700');
 
 * {
   box-sizing: border-box;
 }
 
-*::selection {
-  background: rgba(45, 170, 219, 0.3);
-}
-
 :root {
+  font-size: 15px;
   --color-text-default: rgb(55, 53, 47);
   --color-text-default-light: rgba(55, 53, 47, 0.6);
   --color-text-gray: rgb(155, 154, 151);
@@ -53,23 +52,10 @@
   --column-spacing: 46px;
 }
 
-.source-serif-4-Source-Serif-4 {
-  font-family: "Source Serif 4", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-.eb-garamond-EB-Garamond {
-  font-family: "EB Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
 body {
   color: var(--color-text-default);
   fill: currentColor;
-  font-family: "EB Garamond", "Source Serif 4", ui-serif, Georgia, "Times New Roman", Times, serif;
+  font-family: "Source Serif Pro", "Libre Baskerville", Baskerville, Georgia, serif;
   margin: 0;
 }
 
@@ -82,7 +68,6 @@ code {
 p {
   margin: 0;
 }
-
 
 /* Bookmark */
 
