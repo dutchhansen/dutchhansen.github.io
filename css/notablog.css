@@ -127,7 +127,7 @@ body {
   align-items: left;
   justify-content: left; 
   max-width: 810px;
-  margin: 0 auto;
+  margin: 0.65rem auto 0;
   font-size: 14px;
   padding: 0rem 3rem;
   color: rgba(55, 53, 47, 0.6);
@@ -139,6 +139,30 @@ body {
 
 .Footer a {
   color: rgba(55, 53, 47, 0.6);
+}
+
+/* One-column alternate page */
+
+.Page--OneColumn .Header,
+.Page--OneColumn .PageRoot,
+.Page--OneColumn .Footer {
+  width: 840px;
+}
+
+.Page--OneColumn .Footer {
+  max-width: 100%;
+  padding-right: 96px;
+  padding-left: 96px;
+}
+
+@media only screen and (max-width: 900px) {
+  .Page--OneColumn .Header,
+  .Page--OneColumn .PageRoot,
+  .Page--OneColumn .Footer {
+    max-width: 87.5%;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 @media only screen and (max-width: 680px) {

@@ -929,3 +929,12 @@ pre.Code code {
 .Text__Children {
   margin-left: 1.5em;
 }
+
+.email {
+  font-family: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.72rem;
+  overflow-wrap: anywhere;
+}
+.email-block {
+  margin-top: 0.5rem;
+}
